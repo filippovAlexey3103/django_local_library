@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '5fgf#656q7--dmvp&$sgi!k)cap6!q
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://aqueous-taiga-52265.herokuapp.com/']
 
 
 # Application definition
